@@ -1,16 +1,16 @@
-import React from "react";
+import conejito from "../assets/tl.webp";
 
 const Dialog = ({ title, text }) => {
   return (
     <div className="relative flex justify-center mt-16 ">
       {/* Conejito */}
       <img
-        src="src\assets\tl.webp"
+        src={conejito}
         alt="Cozy rabbit"
         className="
           absolute
           -top-24
-          w-18
+          w-16
           drop-shadow-md
           select-none
           pointer-events-none

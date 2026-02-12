@@ -1,5 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import fotoIA from "../assets/FotoIA.jpeg";
+import fotoIA3 from "../assets/FotoIA3.png";
+import fotoIA4 from "../assets/FotoIA4.png";
+import fotoIA5 from "../assets/FotoIA5.png";
+import fotoIA6 from "../assets/FotoIA6.png";
 
 const moments = [
   {
@@ -8,21 +13,21 @@ const moments = [
     description:
       "y desde entonces mi vida se ha llenado de felicidad. Cada momento a tu lado es especial...",
   },
-  { type: "image", content: "src/assets/FotoIA.jpeg" },
+  { type: "image", content: fotoIA },
   {
     type: "text",
     content: "¿Recuerdas nuestro primer San Valentín?",
     description:
       "fue el año pasado y también te hice una página web, y fuimos al GDL Luz, fue un día muy lindo...",
   },
-  { type: "image", content: "src/assets/FotoIA6.png" },
+  { type: "image", content: fotoIA6 },
   {
     type: "text",
     content: "El Día del Amor y la Amistad",
     description:
       "pero yo no quiero solo un día, quiero todo el año, toda la vida de amor, besos, momentos lindos y de abrazos...",
   },
-  { type: "image", content: "src/assets/FotoIA4.png" },
+  { type: "image", content: fotoIA4 },
   {
     type: "text",
     content: "Y la verdad es que no importa el lugar",
@@ -30,10 +35,10 @@ const moments = [
       "lo importante es estar juntos y querernos mucho, siempre, siempre y para toda la vida...",
   },
 
-  { type: "image", content: "src/assets/FotoIA5.png" },
+  { type: "image", content: fotoIA5 },
   { type: "text", content: "Te quiero mucho, amorcito", description: "" },
 
-  { type: "image", content: "src/assets/FotoIA3.png" },
+  { type: "image", content: fotoIA3 },
 ];
 
 const TapToTap = () => {

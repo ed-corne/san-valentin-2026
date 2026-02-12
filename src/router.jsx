@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
@@ -8,7 +8,7 @@ import Letter from "./pages/Letter";
 import TapToTap from "./pages/TapToTap";
 import Form from "./pages/Form";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <App />,
